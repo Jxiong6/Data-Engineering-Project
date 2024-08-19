@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: retail
+    database: online-retail-432615 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country

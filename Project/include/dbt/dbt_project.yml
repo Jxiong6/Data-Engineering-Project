@@ -1,0 +1,12 @@
+# dbt_project.yml
+
+name: 'retail'
+config-version: 2
+version: '1.0'  # 添加这一行
+
+
+profile: 'retail'
+
+models:
+  retail:
+    materialized: table
